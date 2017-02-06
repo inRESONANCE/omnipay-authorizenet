@@ -2,7 +2,7 @@
 
 namespace Omnipay\AuthorizeNet;
 
-use Guzzle\Http\Client;
+use GuzzleHttp\Client;
 use Omnipay\AuthorizeNet\Message\CIMResponse;
 use Omnipay\Tests\TestCase;
 
