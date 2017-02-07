@@ -27,8 +27,14 @@
     "autoload": {
         "psr-4": { "Omnipay\\AuthorizeNet\\" : "src/" }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/inRESONANCE/omnipay-common.git"
+        }
+    ],
     "require": {
-        "omnipay/common": "~2.2"
+        "omnipay/common": "dev-feature/guzzle6_symfony3_support"
     },
     "require-dev": {
         "omnipay/tests": "~2.0"
